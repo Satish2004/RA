@@ -1,0 +1,294 @@
+.analysis-header {
+  text-align: center;
+  color: white;
+  padding: 40px 20px;
+  margin-bottom: 30px;
+}
+
+.analysis-header h1 {
+  font-size: 42px;
+  margin-bottom: 15px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.job-role {
+  font-size: 20px;
+  opacity: 0.9;
+}
+
+.match-card {
+  text-align: center;
+}
+
+.match-card h2 {
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.match-display {
+  position: relative;
+  margin: 40px 0;
+}
+
+.match-circle {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.match-percentage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.percentage-value {
+  display: block;
+  font-size: 48px;
+  font-weight: bold;
+  color: #667eea;
+}
+
+.percentage-label {
+  display: block;
+  font-size: 18px;
+  color: #666;
+  margin-top: 5px;
+}
+
+.match-feedback {
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.feedback-excellent {
+  background: #d4edda;
+  color: #155724;
+}
+
+.feedback-good {
+  background: #fff3cd;
+  color: #856404;
+}
+
+.feedback-needs-work {
+  background: #f8d7da;
+  color: #721c24;
+}
+
+.skill-table {
+  overflow-x: auto;
+  margin-top: 20px;
+}
+
+.skill-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.skill-table th,
+.skill-table td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.skill-table th {
+  background: #f8f9fa;
+  font-weight: 600;
+  color: #333;
+}
+
+.status-badge {
+  padding: 5px 12px;
+  border-radius: 20px;
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.skill-gaps-card {
+  background: #fff3cd;
+  border-left: 5px solid #ffc107;
+}
+
+.skill-gaps-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.gap-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 15px;
+  background: white;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.gap-icon {
+  font-size: 24px;
+}
+
+.roadmap-card {
+  background: #f8f9ff;
+}
+
+.roadmap-intro {
+  color: #666;
+  margin-bottom: 30px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.roadmap-item {
+  background: white;
+  border-radius: 10px;
+  padding: 25px;
+  margin-bottom: 25px;
+  border-left: 5px solid #667eea;
+}
+
+.roadmap-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.roadmap-header h3 {
+  color: #333;
+  font-size: 24px;
+  margin: 0;
+}
+
+.roadmap-meta {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.level-badge {
+  padding: 6px 15px;
+  background: #667eea;
+  color: white;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.time-estimate {
+  color: #666;
+  font-size: 14px;
+}
+
+.roadmap-steps {
+  margin: 20px 0;
+}
+
+.roadmap-steps h4 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.roadmap-steps ol {
+  padding-left: 25px;
+}
+
+.roadmap-steps li {
+  margin-bottom: 10px;
+  color: #666;
+  line-height: 1.6;
+}
+
+.youtube-links {
+  margin-top: 25px;
+  padding-top: 25px;
+  border-top: 2px solid #e0e0e0;
+}
+
+.youtube-links h4 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.video-links {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.video-link {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 15px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.video-link:hover {
+  background: #e9ecef;
+  border-color: #667eea;
+  transform: translateX(5px);
+}
+
+.video-icon {
+  font-size: 24px;
+}
+
+.video-info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.video-title {
+  color: #333;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.video-channel {
+  color: #666;
+  font-size: 14px;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+  .match-circle {
+    width: 250px;
+    height: 250px;
+  }
+  
+  .percentage-value {
+    font-size: 36px;
+  }
+  
+  .roadmap-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

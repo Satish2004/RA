@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+
+# Build outputs
+frontend/build/
+backend/dist/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Uploads
+uploads/
+*.pdf
+!sample-resume.pdf
+
+# MongoDB
+data/
